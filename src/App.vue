@@ -1,5 +1,5 @@
 <script setup>
-    import { ref, watch } from 'vue'
+    import { ref } from 'vue'
 
      let listaLivros = ref([
     {id: 1, nome: 'O livro de receitas dos Animes', autor: 'Nadine Estero', preco: 'R$119,90', sinapse: ' Este livro traz 75 receitas inspiradas nos pratos mais icônicos de diversos animes, como One Piece, My Hero Academia, Food Wars! e Dragon Ball Z. Cada receita é acompanhada de uma ilustração no estilo anime, além de informações sobre o episódio em que o prato aparece. Ideal para fãs de culinária e cultura japonesa.', capa: '/images/anime.webp' },
